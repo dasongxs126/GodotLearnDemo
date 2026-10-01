@@ -4,3 +4,6 @@
 
 # Godot MCP runtime cache (screenshots etc.)
 addons/godot_mcp/cache/
+
+# AI 工具本地状态（项目记忆/工作日志），不进仓库
+.workbuddy-ai/
