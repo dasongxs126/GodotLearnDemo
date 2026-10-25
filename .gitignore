@@ -7,3 +7,6 @@ addons/godot_mcp/cache/
 
 # AI 工具本地状态（项目记忆/工作日志），不进仓库
 .workbuddy-ai/
+
+# 美术处理脚本的临时预览图（由 tools/*.py 生成，可随时重跑）
+tmp_preview/
