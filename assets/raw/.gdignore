@@ -1,0 +1,2 @@
+让 Godot 跳过本目录：这里是 AI 生成的原始大图（1024px 级），
+只作为 tools/process_art.py 的输入，不进资源管线。处理后的成品在 assets/ 的其他子目录。
