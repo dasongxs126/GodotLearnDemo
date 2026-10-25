@@ -11,6 +11,7 @@ config_version=5
 [application]
 
 config/name="Demo"
+run/main_scene="res://playgrounds/battle_screen.tscn"
 config/features=PackedStringArray("4.7", "Forward Plus")
 config/icon="res://icon.svg"
 
@@ -20,8 +21,11 @@ MCPRuntime="*res://addons/godot_mcp/runtime/mcp_runtime.gd"
 
 [display]
 
+; 窗口 1280×720 = 战场内部尺寸 640×360 的整数倍（2×），保证像素不被拉花
+window/size/viewport_width=1280
+window/size/viewport_height=720
 window/stretch/mode="canvas_items"
-window/stretch/aspect="expand"
+window/stretch/aspect="keep"
 
 [editor_plugins]
 
@@ -34,3 +38,5 @@ enabled=PackedStringArray("res://addons/godot_mcp/plugin.cfg")
 [rendering]
 
 rendering_device/driver.windows="d3d12"
+; 像素风必需：默认纹理过滤 = Nearest（0），否则低分辨率精灵放大后会糊
+textures/canvas_textures/default_texture_filter=0
