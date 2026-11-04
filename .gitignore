@@ -10,3 +10,7 @@ addons/godot_mcp/cache/
 
 # 美术处理脚本的临时预览图（由 tools/*.py 生成，可随时重跑）
 tmp_preview/
+
+# 本地 IDE 与 Godot Git 插件（工具链，不进仓库）
+.idea/
+addons/godot-git-plugin/

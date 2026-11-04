@@ -1,0 +1,173 @@
+{
+  "version": 1,
+  "skills": {
+    "adaptation": {
+      "source": "danjdewhurst/story-skills",
+      "sourceType": "github",
+      "skillPath": "skills/adaptation/SKILL.md",
+      "computedHash": "13cd016ff51c9059596ed7c15757b146e2a80032a6ce68fe6cf8ea2766cc6bbf",
+      "installMode": "copy"
+    },
+    "chapter-writing": {
+      "source": "danjdewhurst/story-skills",
+      "sourceType": "github",
+      "skillPath": "skills/chapter-writing/SKILL.md",
+      "computedHash": "94f0b472acd0b81fb8019e819710ae05035a3e4f547ad683a404fc909fd5520c",
+      "installMode": "copy"
+    },
+    "character-management": {
+      "source": "danjdewhurst/story-skills",
+      "sourceType": "github",
+      "skillPath": "skills/character-management/SKILL.md",
+      "computedHash": "bd005b87ebe23fb59f02670fc53b1e33dd956adc7d9fa7990a4f014a16b1b3df",
+      "installMode": "copy"
+    },
+    "discovery-drafting": {
+      "source": "danjdewhurst/story-skills",
+      "sourceType": "github",
+      "skillPath": "skills/discovery-drafting/SKILL.md",
+      "computedHash": "8026684e70b91413ebc90d8fa27b3b5cf33ae4dd4565ee1887ec03a2111795f9",
+      "installMode": "copy"
+    },
+    "editorial-review": {
+      "source": "danjdewhurst/story-skills",
+      "sourceType": "github",
+      "skillPath": "skills/editorial-review/SKILL.md",
+      "computedHash": "07a9b187f9a688355fa67aca53cc066f81d46f96d03f6c26bf4f2c3a9d50d4cc",
+      "installMode": "copy"
+    },
+    "feedback-triage": {
+      "source": "danjdewhurst/story-skills",
+      "sourceType": "github",
+      "skillPath": "skills/feedback-triage/SKILL.md",
+      "computedHash": "df2a1083f9c015ad7eb753790d58eb6968fa8930605a54b5fc1bcb3847d83f9a",
+      "installMode": "copy"
+    },
+    "genre-craft": {
+      "source": "danjdewhurst/story-skills",
+      "sourceType": "github",
+      "skillPath": "skills/genre-craft/SKILL.md",
+      "computedHash": "6417874257f293ef86787a4fbcb931a76fa360f0afeb4cdb051af50b28a1b6ef",
+      "installMode": "copy"
+    },
+    "interactive-fiction": {
+      "source": "danjdewhurst/story-skills",
+      "sourceType": "github",
+      "skillPath": "skills/interactive-fiction/SKILL.md",
+      "computedHash": "2590eaed3a14e398b20678204211fda6721e12d0e3129c43f4be16902f568e39",
+      "installMode": "copy"
+    },
+    "line-editing": {
+      "source": "danjdewhurst/story-skills",
+      "sourceType": "github",
+      "skillPath": "skills/line-editing/SKILL.md",
+      "computedHash": "82208eeb1bdc23858d522616e535600b8114b6f06db01a001c9269b3c401d736",
+      "installMode": "copy"
+    },
+    "plot-structure": {
+      "source": "danjdewhurst/story-skills",
+      "sourceType": "github",
+      "skillPath": "skills/plot-structure/SKILL.md",
+      "computedHash": "511c9c9545843fa240a3e3f03594756bf6a0e9e030704d7016b9d5b757c9b861",
+      "installMode": "copy"
+    },
+    "premise-workshop": {
+      "source": "danjdewhurst/story-skills",
+      "sourceType": "github",
+      "skillPath": "skills/premise-workshop/SKILL.md",
+      "computedHash": "4b2428703cac0fa7a940915f481a2b8198771f89bf671cdaf3e01d584c2a001e",
+      "installMode": "copy"
+    },
+    "publishing": {
+      "source": "danjdewhurst/story-skills",
+      "sourceType": "github",
+      "skillPath": "skills/publishing/SKILL.md",
+      "computedHash": "bab3dfb4ec77da95ddd46ee7686e71560e33618e19682cebd13ca58af5ae22e6",
+      "installMode": "copy"
+    },
+    "reader-panel": {
+      "source": "danjdewhurst/story-skills",
+      "sourceType": "github",
+      "skillPath": "skills/reader-panel/SKILL.md",
+      "computedHash": "41f0c6261ed3678bf8f039a4de8ea8323e6c59591b8bbe4e0a753202fed31a12",
+      "installMode": "copy"
+    },
+    "research": {
+      "source": "danjdewhurst/story-skills",
+      "sourceType": "github",
+      "skillPath": "skills/research/SKILL.md",
+      "computedHash": "bc105bb8e6252c2a66012d28c285ed0583504dfc1a803a8e7cfc4b67257579fa",
+      "installMode": "copy"
+    },
+    "revision-continuity": {
+      "source": "danjdewhurst/story-skills",
+      "sourceType": "github",
+      "skillPath": "skills/revision-continuity/SKILL.md",
+      "computedHash": "0b2f7608cc7cff46e2adc0288df2c45f714889aa7222c21a5675edf371685cdb",
+      "installMode": "copy"
+    },
+    "scene-craft": {
+      "source": "danjdewhurst/story-skills",
+      "sourceType": "github",
+      "skillPath": "skills/scene-craft/SKILL.md",
+      "computedHash": "e2b53bcabb179486007274373c5786fd2579289387771528022650f50a5996bc",
+      "installMode": "copy"
+    },
+    "series-continuity": {
+      "source": "danjdewhurst/story-skills",
+      "sourceType": "github",
+      "skillPath": "skills/series-continuity/SKILL.md",
+      "computedHash": "7ba0808cbc6fa6b6424422537b67e8889519807c0c68fc6da72376acb7f3650a",
+      "installMode": "copy"
+    },
+    "story-init": {
+      "source": "danjdewhurst/story-skills",
+      "sourceType": "github",
+      "skillPath": "skills/story-init/SKILL.md",
+      "computedHash": "9f7e5b0d6ba6b11e052e197c6ac2f9bb98ba35da26b439fe6c75748f546aff5a",
+      "installMode": "copy"
+    },
+    "story-maintenance": {
+      "source": "danjdewhurst/story-skills",
+      "sourceType": "github",
+      "skillPath": "skills/story-maintenance/SKILL.md",
+      "computedHash": "da2a5a73a7cb68959958bd0c8cedfed70e066175b05da0f7d8e7eff6711d70ad",
+      "installMode": "copy"
+    },
+    "submission": {
+      "source": "danjdewhurst/story-skills",
+      "sourceType": "github",
+      "skillPath": "skills/submission/SKILL.md",
+      "computedHash": "c875d3e8634fb64b0a7706a49b7bf8ea036d8da0cef5eaca91e62e0948d3b7b4",
+      "installMode": "copy"
+    },
+    "theme-craft": {
+      "source": "danjdewhurst/story-skills",
+      "sourceType": "github",
+      "skillPath": "skills/theme-craft/SKILL.md",
+      "computedHash": "3fa47f5777a8005515659fdb6c39c789a2659ee0062875ff83d379828973f8a9",
+      "installMode": "copy"
+    },
+    "verse-craft": {
+      "source": "danjdewhurst/story-skills",
+      "sourceType": "github",
+      "skillPath": "skills/verse-craft/SKILL.md",
+      "computedHash": "5be44ae0c9a4c379b140255f756b62da111f04460d396bfbd8302f1b2d707420",
+      "installMode": "copy"
+    },
+    "voice-style": {
+      "source": "danjdewhurst/story-skills",
+      "sourceType": "github",
+      "skillPath": "skills/voice-style/SKILL.md",
+      "computedHash": "70222b7c9c7fdb96c0de4c9e1c96f454e679663e25b1307f9ea1f4622b08cc8d",
+      "installMode": "copy"
+    },
+    "worldbuilding": {
+      "source": "danjdewhurst/story-skills",
+      "sourceType": "github",
+      "skillPath": "skills/worldbuilding/SKILL.md",
+      "computedHash": "f688fa33448f0d6d5cfe0f02268b1133eefdbcf282f9d4815888b2822cb4c1da",
+      "installMode": "copy"
+    }
+  }
+}

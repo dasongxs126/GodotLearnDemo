@@ -6,6 +6,13 @@
       "lifecycle": "lazy",
       "idleTimeout": 60,
       "requestTimeoutMs": 60000
+    },
+    "game-design": {
+      "command": "npx",
+      "args": ["-y", "@chantezy/mcp-game-design@1.0.12"],
+      "lifecycle": "lazy",
+      "idleTimeout": 120,
+      "requestTimeoutMs": 120000
     }
   }
 }
