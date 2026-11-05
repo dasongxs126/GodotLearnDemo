@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dynmb5jhrhw4d"
-path="res://.godot/imported/battle_screen.png-615ae5811bd5a709b6890988782a0e5f.ctex"
+uid="uid://d34eabrmhwhho"
+path="res://.godot/imported/battle_screen_choice.png-bcb4ab75f53fe156a9fa5047f22e225b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://docs/design/screenshots/battle_screen.png"
-dest_files=["res://.godot/imported/battle_screen.png-615ae5811bd5a709b6890988782a0e5f.ctex"]
+source_file="res://docs/screenshots/battle_screen_choice.png"
+dest_files=["res://.godot/imported/battle_screen_choice.png-bcb4ab75f53fe156a9fa5047f22e225b.ctex"]
 
 [params]
 

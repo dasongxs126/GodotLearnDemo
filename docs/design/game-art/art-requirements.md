@@ -1,6 +1,6 @@
 # 战斗美术资源需求
 
-> 目标：把 [`playgrounds/battle_screen.tscn`](../../playgrounds/battle_screen.tscn) 里的**色块占位**换成真实美术。
+> 目标：把 [`playgrounds/battle_screen.tscn`](../../../playgrounds/battle_screen.tscn) 里的**色块占位**换成真实美术。
 > 现在的问题不是"不好看"，而是**太抽象**——玩家看不出这是个人、分不清谁是谁、攻击只是块方块在飞。
 >
 > 本文只列**需要外部提供**的资产，并标明每项替代当前哪个占位，便于验收。

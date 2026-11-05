@@ -1,19 +1,19 @@
 # 玩法原型骨架
 
-按 [`gameplay_prototype.md`](gameplay_prototype.md) 落地的可运行骨架：**先验证"这套规则跑起来对不对、好不好玩"**，
+按 [`gameplay_prototype.md`](gameplay-prototype.md) 落地的可运行骨架：**先验证"这套规则跑起来对不对、好不好玩"**，
 数值用占位值，美术用占位资源。
 
-![可操作战斗场景](screenshots/battle_screen_choice.png)
+![可操作战斗场景](../../screenshots/battle_screen_choice.png)
 
 *当前状态：斜 45° 等距战场，3v3 正面对峙（我方在下、敌方在上）。P3 的回合，
 **三个敌人全部亮起青色轮廓描边**——这是"可以直接点它"的提示；点敌人即隐含"我要进攻这个目标"，
 不必先按「进攻」。底部常驻弹刀规则条，右侧为行动队列（含 HP 与资源点）与战斗日志。*
 
-![选择进攻模组](screenshots/battle_screen.png)
+![选择进攻模组](../../screenshots/battle_screen.png)
 
 *选定目标后进入选模组，按钮显示 `Q 石头 / W 剪刀 / E 布`；此时敌人的"可点"描边已经收起。*
 
-![弹刀演出](screenshots/battle_screen_reaction.png)
+![弹刀演出](../../screenshots/battle_screen_reaction.png)
 
 *弹刀演出定格在 62%：敌方 E2 泛白起手后，方块沿等距方向飞向 P1，P1 精灵泛红、脚下红色警示菱形。
 此时按钮切换为 `A 石头 / S 剪刀 / D 布`——**进攻与弹刀用两套键位**。*
@@ -242,9 +242,9 @@ HUD 位于窗口坐标、不随战场缩放。两条约束都已写进 `tests/te
 | 15 个阶段是否全为连携窗口 | 暂定全为是，只改 `BattlePhase.is_chain_window` | 规格书 §八 ⏳ |
 | 反应窗口时长 `REACTION_SECONDS_DEFAULT = 3.0` | 占位；正式版应做成"每次攻击各自一个时长" | 规格书 §六 ⏳ |
 | 双方人数 `3 v 3`、生命值 `12 / 10` | 占位 | 待定 |
-| 角色表现 | **已接占位美术**：64×96 精灵 + 32×16 半透明网格 + 640×360 背景；纹理缺失时自动退化为色块 | 正式资源待替换，见 [`art_requirements.md`](art_requirements.md) |
+| 角色表现 | **已接占位美术**：64×96 精灵 + 32×16 半透明网格 + 640×360 背景；纹理缺失时自动退化为色块 | 正式资源待替换，见 [`art_requirements.md`](../game-art/art-requirements.md) |
 | 站位（3v3 正面对峙） | 硬编码在 `battle_screen.gd` 的 `PLAYER_CELLS` / `ENEMY_CELLS` | 待做成阵型配置 |
-| 攻击特效 | 一个 18×18 的纯色方块（战场坐标） | 批次 2，见 [`art_requirements.md`](art_requirements.md) |
+| 攻击特效 | 一个 18×18 的纯色方块（战场坐标） | 批次 2，见 [`art_requirements.md`](../game-art/art-requirements.md) |
 | 模组图标 | 仍是文字按钮，进攻显示 `Q 石头`、弹刀显示 `A 石头` | 批次 1，待世界观定名后画 |
 | 单位描边着色器 | `core/shaders/unit_outline.gdshader`，按纹理 alpha 输出纯色，用作"可以点"的提示 | 已落地 |
 | 技能系统 | 未接入，只有 `ChainArbiter` 接口 | 规格书 §十一 🚫 |
@@ -254,7 +254,7 @@ HUD 位于窗口坐标、不随战场缩放。两条约束都已写进 `tests/te
 ## 五、下一步
 
 已定决策：**构图 = 斜 45° 等距**、**画风 = 像素风**、**弹刀模组 = 先不定，用占位图标**。
-需求与规格见 [`art_requirements.md`](art_requirements.md)。
+需求与规格见 [`art_requirements.md`](../game-art/art-requirements.md)。
 
 1. ✅ **表现层重写为等距场景**（上一轮完成）：`battle_screen.gd` 从"卡片列表"改成等距空间场景——
    `core/iso_grid.gd` 负责坐标换算，单位改为 `Sprite2D` + 脚下菱形高亮 + 头顶血条，
@@ -267,7 +267,7 @@ HUD 位于窗口坐标、不随战场缩放。两条约束都已写进 `tests/te
 3. **补齐美术**（下一步）：现在只有 1 张我方精灵 + 1 张敌方精灵。需要补 2 张我方 + 2 张敌方精灵，
    再加模组占位图标、攻击特效、起手预告特效。
 4. **拍板 AI 插画 vs 真像素画**：现在的 64×96 精灵**可辨识但不是像素风**（边缘是抗锯齿的柔和过渡），
-   这条决定最终尺寸（走真像素画可以降回 32×48）。见 [`art_requirements.md`](art_requirements.md) §九。
+   这条决定最终尺寸（走真像素画可以降回 32×48）。见 [`art_requirements.md`](../game-art/art-requirements.md) §九。
 5. **设计 2~3 个技能**，串起 `ChainArbiter`，验证阶段连携在真实操作下手感如何；
 6. **补数值**：伤害、疗愈、资源消耗，跑几场看战斗时长是否失控（回合制的头号风险是"拖"）。
    —— 排在美术之后，因为战斗节奏的可读性依赖演出。
